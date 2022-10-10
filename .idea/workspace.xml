@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0ea5ce-d3bc-4e9b-8327-12cd90fd5c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelectClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelectClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelectClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SelectClass">
+  <component name="RunManager" selected="Application.RadioButton">
     <configuration name="Drop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Drop" />
       <module name="untitled" />
@@ -56,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RadioButton" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadioButton" />
         <item itemvalue="Application.SelectClass" />
         <item itemvalue="Application.RelativeLocators" />
         <item itemvalue="Application.Tnpc" />
         <item itemvalue="Application.Drop" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665389636653</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Automation">
+      <created>1665390641978</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665390641978</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

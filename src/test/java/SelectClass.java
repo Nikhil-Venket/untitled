@@ -8,7 +8,8 @@ import java.util.List;
 public class SelectClass {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception
+    {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\nikhil.venket\\IdeaProjects\\untitled\\Driver\\chromedriver.exe");
         WebDriver kit = new ChromeDriver();
@@ -26,6 +27,7 @@ public class SelectClass {
         selectIndex.selectByIndex(0);
         selectIndex.selectByValue("1");
         selectIndex.selectByVisibleText("Selenium");
+        Thread.sleep(3000);
 
 
 //        WebElement dropdownByValue = driver.findElement(By.xpath("//select[@id='dropdown1']"));
