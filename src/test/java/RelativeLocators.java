@@ -27,11 +27,11 @@ public class RelativeLocators {
 
         WebElement errormessage=kit.findElement(By.xpath("//span[@class='field-validation-error']"));
 
-        if(errormessage.isDisplayed()){
+        if(errormessage.isDisplayed())
+        {
             System.out.println("Enter into If Statement>>>>");
             Thread.sleep(3000);
             WebElement Password1 = kit.findElement(By.xpath("//input[@id ='UserPwd']"));
-
             Password1.sendKeys("763nibus");
             WebElement Username1 = kit.findElement(with(By.tagName("input")).above(Password1));
             Username1.clear();
@@ -59,7 +59,6 @@ public class RelativeLocators {
         //WebElement Forget = Driver.findElement(with(By.id("MainNavHelp")).below(Password));
         //WebElement Forget = Driver.findElement(By.id("MainNavHelp"));
         //Forget.click();
-        kit.quit();
 
 
     }
