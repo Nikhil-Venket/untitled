@@ -33,8 +33,10 @@ public class RelativeLocators {
             Thread.sleep(3000);
             WebElement Password1 = kit.findElement(By.xpath("//input[@id ='UserPwd']"));
             Password1.sendKeys("763nibus");
+            Thread.sleep(1000);
             WebElement Username1 = kit.findElement(with(By.tagName("input")).above(Password1));
             Username1.clear();
+            Thread.sleep(1000);
             Username1.sendKeys("subin.archunan@provana.com");
             WebElement Signing1 = kit.findElement(By.id("btnSubmmit"));
             Signing1.click();
