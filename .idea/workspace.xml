@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0ea5ce-d3bc-4e9b-8327-12cd90fd5c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageFactory/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/geckodriver (1).exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageFactory/IperformPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageFactory/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageFactory/MainFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,13 +32,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FIj1ObaF0Vr5xOqbbI7ztFR2py" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -48,10 +55,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RadioButton">
-    <configuration name="Drop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Drop" />
+  <component name="RunManager" selected="Application.MainFile">
+    <configuration name="MainFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PageFactory.MainFile" />
       <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFile" />
         <item itemvalue="Application.RadioButton" />
         <item itemvalue="Application.SelectClass" />
         <item itemvalue="Application.RelativeLocators" />
         <item itemvalue="Application.Tnpc" />
-        <item itemvalue="Application.Drop" />
       </list>
     </recent_temporary>
   </component>
@@ -173,10 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1665391250019</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Automation">
+      <created>1665552577871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665552577871</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Automation" />
     <option name="LAST_COMMIT_MESSAGE" value="Automation" />
   </component>
